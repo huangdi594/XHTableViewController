@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "XHTableViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)pushnext:(id)sender {
+    XHTableViewController *xh = [[XHTableViewController alloc] init];
+    [self.navigationController pushViewController:xh animated:YES];
 }
 
 @end

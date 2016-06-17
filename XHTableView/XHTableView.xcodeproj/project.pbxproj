@@ -15,6 +15,11 @@
 		99B089E31D13F6B400CDD71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B089E11D13F6B400CDD71E /* LaunchScreen.storyboard */; };
 		99B089EE1D13F6B400CDD71E /* XHTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B089ED1D13F6B400CDD71E /* XHTableViewTests.m */; };
 		99B089F91D13F6B400CDD71E /* XHTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B089F81D13F6B400CDD71E /* XHTableViewUITests.m */; };
+		99B08A081D13F9FA00CDD71E /* XHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B08A071D13F9FA00CDD71E /* XHTableViewController.m */; };
+		99B08A0C1D13FA1900CDD71E /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B08A0A1D13FA1900CDD71E /* FirstTableViewCell.m */; };
+		99B08A0D1D13FA1900CDD71E /* FirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B08A0B1D13FA1900CDD71E /* FirstTableViewCell.xib */; };
+		99B08A111D13FA2B00CDD71E /* SecendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B08A0F1D13FA2B00CDD71E /* SecendTableViewCell.m */; };
+		99B08A121D13FA2B00CDD71E /* SecendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99B08A101D13FA2B00CDD71E /* SecendTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,14 @@
 		99B089F41D13F6B400CDD71E /* XHTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B089F81D13F6B400CDD71E /* XHTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHTableViewUITests.m; sourceTree = "<group>"; };
 		99B089FA1D13F6B400CDD71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99B08A061D13F9FA00CDD71E /* XHTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTableViewController.h; sourceTree = "<group>"; };
+		99B08A071D13F9FA00CDD71E /* XHTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTableViewController.m; sourceTree = "<group>"; };
+		99B08A091D13FA1900CDD71E /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		99B08A0A1D13FA1900CDD71E /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		99B08A0B1D13FA1900CDD71E /* FirstTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTableViewCell.xib; sourceTree = "<group>"; };
+		99B08A0E1D13FA2B00CDD71E /* SecendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecendTableViewCell.h; sourceTree = "<group>"; };
+		99B08A0F1D13FA2B00CDD71E /* SecendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecendTableViewCell.m; sourceTree = "<group>"; };
+		99B08A101D13FA2B00CDD71E /* SecendTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecendTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +118,14 @@
 				99B089D71D13F6B400CDD71E /* AppDelegate.m */,
 				99B089D91D13F6B400CDD71E /* ViewController.h */,
 				99B089DA1D13F6B400CDD71E /* ViewController.m */,
+				99B08A061D13F9FA00CDD71E /* XHTableViewController.h */,
+				99B08A071D13F9FA00CDD71E /* XHTableViewController.m */,
+				99B08A091D13FA1900CDD71E /* FirstTableViewCell.h */,
+				99B08A0A1D13FA1900CDD71E /* FirstTableViewCell.m */,
+				99B08A0B1D13FA1900CDD71E /* FirstTableViewCell.xib */,
+				99B08A0E1D13FA2B00CDD71E /* SecendTableViewCell.h */,
+				99B08A0F1D13FA2B00CDD71E /* SecendTableViewCell.m */,
+				99B08A101D13FA2B00CDD71E /* SecendTableViewCell.xib */,
 				99B089DC1D13F6B400CDD71E /* Main.storyboard */,
 				99B089DF1D13F6B400CDD71E /* Assets.xcassets */,
 				99B089E11D13F6B400CDD71E /* LaunchScreen.storyboard */,
@@ -245,7 +266,9 @@
 			files = (
 				99B089E31D13F6B400CDD71E /* LaunchScreen.storyboard in Resources */,
 				99B089E01D13F6B400CDD71E /* Assets.xcassets in Resources */,
+				99B08A0D1D13FA1900CDD71E /* FirstTableViewCell.xib in Resources */,
 				99B089DE1D13F6B400CDD71E /* Main.storyboard in Resources */,
+				99B08A121D13FA2B00CDD71E /* SecendTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				99B089DB1D13F6B400CDD71E /* ViewController.m in Sources */,
+				99B08A081D13F9FA00CDD71E /* XHTableViewController.m in Sources */,
+				99B08A0C1D13FA1900CDD71E /* FirstTableViewCell.m in Sources */,
 				99B089D81D13F6B400CDD71E /* AppDelegate.m in Sources */,
 				99B089D51D13F6B400CDD71E /* main.m in Sources */,
+				99B08A111D13FA2B00CDD71E /* SecendTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +522,7 @@
 				99B089FF1D13F6B400CDD71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B08A001D13F6B400CDD71E /* Build configuration list for PBXNativeTarget "XHTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				99B08A021D13F6B400CDD71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99B08A031D13F6B400CDD71E /* Build configuration list for PBXNativeTarget "XHTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				99B08A051D13F6B400CDD71E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
